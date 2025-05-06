@@ -140,3 +140,51 @@ img{
     padding-bottom: 25px;
 }
 
+.main_bout{
+    background-color: #f6f6f6;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+}
+
+.main_bout_left{
+    width: 1950px;
+    height: auto;
+    margin-right: 120px;
+}
+
+.main_bout_left img{
+    width: 100%;
+    height: 550px;
+    padding-bottom: 20px;
+}
+
+.main_bout_right h2{ 
+    padding: 80px 0;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 400;
+    font-size: 25px;
+    color: #000;
+}
+
+.main_bout_right h2::after{
+    content: '';
+    position: relative;
+    display: block;
+    width: 55px;
+    height: 2px;
+    background: #d43031;
+    margin-top: 10px;
+}
+
+.main_bout_right p{
+    padding-right: 300px;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.main_bout_right p:last-child{
+    padding-bottom: 0;
+}
