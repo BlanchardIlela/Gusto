@@ -13,6 +13,7 @@ body, html{
     line-height: 1.4;
     color: #777;
     font-family: 'Open Sans', serif;
+    scroll-behavior: smooth;
 }
 
 a{
