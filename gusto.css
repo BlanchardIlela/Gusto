@@ -385,3 +385,32 @@ img{
     border: var(--DefaultColor);
     color: #ddd;
 }
+
+.footer_bottom{
+    display: flex;
+    justify-content: space-around;
+    background: #262626;
+    padding: 40px 0;
+}
+
+.footer_bottom_infos p{
+    font-size: 15px;
+    color: #666;
+}
+
+.footer_bottom_infos p span{
+    color: #999;
+}
+
+.footer_bottom_social a i{
+    font-size: 20px;
+}
+
+.footer_bottom_social a{
+    padding: 0 20px;
+    color: #999;
+}
+
+.footer_bottom_social a:hover{
+    color: #ccc;
+}
