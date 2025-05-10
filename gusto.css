@@ -274,3 +274,114 @@ img{
     text-align: left;
     padding-bottom: 10px;
 }
+
+.footer_top{
+    background-color: #333;
+}
+
+.footer_top_1{
+    display: flex;
+    justify-content: space-around;
+    margin-left: 150px;
+    margin-right: 150px;
+    text-align: center;
+}
+
+.box_top, .box_middien, .box_bottom{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.box_top span, .box_middien span, .box_bottom span{
+    display: block;
+    padding-bottom: 5px;
+}
+
+.footer_top_1 h2{
+    padding-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #aaa;
+}
+
+.footer_top_1 h2::after, .footer_top_2 h2::after{
+    content: '';
+    display: block;
+    width: 40px;
+    height: 2px;
+    background: var(--DefaultColor);
+    margin-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.box_middien h2::after{
+    margin-left: 60px;
+}
+
+.box_bottom h2::after{
+    margin-left: 85px;
+}
+
+.footer_top_1 p{
+    font-size: 15px;
+}
+
+.footer_top_2{
+    display: block;
+    text-align: center;
+}
+
+.footer_top_2 h2{
+    padding-bottom: 10px;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    color: #aaa;
+    letter-spacing: 2px;
+}
+
+.footer_top_2 h2::after{
+    margin-left: 690px;
+}
+
+.footer_top_2 input{
+    width: 298px;
+    padding: 10px 10px;
+    background-color: rgba(255, 255, 255, .2);
+    color: #ccc;
+    border: none;
+    outline: none;
+    margin-bottom: 20px;
+}
+
+.footer_top_2 textarea{
+    padding: 0 10px;
+    background-color: rgba(255, 255, 255, .2);
+    color: #ccc;
+    border: none;
+    outline: none;
+}
+
+.footer_top_2 button{
+    margin: 40px 0 60px 0;
+    padding: 15px 30px;
+    border: 2px solid #777;
+    text-transform: uppercase;
+    color: #777;
+    background-color: transparent;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.footer_top_2 button:hover{
+    background: var(--DefaultColor);
+    border: var(--DefaultColor);
+    color: #ddd;
+}
